@@ -1,0 +1,26 @@
+{
+  "name": "rxtools",
+  "version": "1.0.0",
+  "description": "simple javascript tools",
+  "main": "index.js",
+  "scripts": {
+    "lint-fix": "eslint --fix --ext .js --ext src/",
+    "prettier": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppgs8903/rxtools.git"
+  },
+  "author": "JT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ppgs8903/rxtools/issues"
+  },
+  "homepage": "https://github.com/ppgs8903/rxtools#readme",
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-standard": "^14.1.1",
+    "prettier": "^2.1.1"
+  }
+}

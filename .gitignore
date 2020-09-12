@@ -1,5 +1,8 @@
-# Logs
-logs
+# IDE
+.DS_Store
+.idea
+
+# logs
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -40,6 +43,9 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+
+# Lockfile
+package-lock.json/
 
 # TypeScript v1 declaration files
 typings/
